@@ -16,7 +16,7 @@ import (
 	"github.com/openlistteam/openlist/internal/bootstrap"
 	"github.com/openlistteam/openlist/internal/conf"
 	"github.com/openlistteam/openlist/pkg/utils"
-	"github.comopenlistteam/openlist/server"
+	"github.com/openlistteam/openlist/server"
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 )
