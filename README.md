@@ -1,3 +1,8 @@
+## 单纯Fork了原仓库, 将所有alist相关的库换成了openlist的, 如果你需要fork本仓库请注意:
+去Settings -> Secrets and variables -> Actions -> Repo secret添加你自己的secret <br>
+ALIAS_NAME  ALIAS_PASSWORD  KEY_PASSWORD  KEY_STORE  <br>
+其中KEY_STORE存储前三项对应的jks签名文件的base64编码<br>
+
 [![Release](https://github.com/jing332/AListFlutter/actions/workflows/release.yaml/badge.svg)](https://github.com/jing332/AListFlutter/actions/workflows/release.yaml)
 [![Test](https://github.com/jing332/AListFlutter/actions/workflows/build.yaml/badge.svg)](https://github.com/jing332/AListFlutter/actions/workflows/build.yaml)
 [![CheckAList](https://github.com/jing332/AListFlutter/actions/workflows/sync_alist.yaml/badge.svg)](https://github.com/jing332/AListFlutter/actions/workflows/sync_alist.yaml)
