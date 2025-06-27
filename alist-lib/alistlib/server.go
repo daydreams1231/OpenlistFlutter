@@ -11,12 +11,12 @@ import (
 	"time"
 
 	"github.com/openlistteam/openlist/v4/internal"
-	"github.com/openlistteam/openlist/cmd"
-	"github.com/openlistteam/openlist/cmd/flags"
-	"github.com/openlistteam/openlist/internal/bootstrap"
-	"github.com/openlistteam/openlist/internal/conf"
-	"github.com/openlistteam/openlist/pkg/utils"
-	"github.com/openlistteam/openlist/server"
+	"github.com/openlistteam/openlist/v4/cmd"
+	"github.com/openlistteam/openlist/v4/cmd/flags"
+	"github.com/openlistteam/openlist/v4/internal/bootstrap"
+	"github.com/openlistteam/openlist/v4/internal/conf"
+	"github.com/openlistteam/openlist/v4/pkg/utils"
+	"github.com/openlistteam/openlist/v4/server"
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 )
