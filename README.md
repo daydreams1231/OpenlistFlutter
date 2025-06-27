@@ -3,6 +3,13 @@
 ALIAS_NAME  ALIAS_PASSWORD  KEY_PASSWORD  KEY_STORE  <br>
 其中KEY_STORE存储前三项对应的jks签名文件的base64编码<br>
 
+貌似OpenList仓库还有点问题, 使用go get github.com/OpenListTeam/OpenList/v3/cmd出现: <br>
+```
+go: github.com/OpenListTeam/OpenList/v3@v3.45.0: parsing go.mod:
+        module declares its path as: github.com/alist-org/alist/v3
+                but was required as: github.com/OpenListTeam/OpenList/v3
+```
+等以后再修吧<br>
 [![Release](https://github.com/jing332/AListFlutter/actions/workflows/release.yaml/badge.svg)](https://github.com/jing332/AListFlutter/actions/workflows/release.yaml)
 [![Test](https://github.com/jing332/AListFlutter/actions/workflows/build.yaml/badge.svg)](https://github.com/jing332/AListFlutter/actions/workflows/build.yaml)
 [![CheckAList](https://github.com/jing332/AListFlutter/actions/workflows/sync_alist.yaml/badge.svg)](https://github.com/jing332/AListFlutter/actions/workflows/sync_alist.yaml)
