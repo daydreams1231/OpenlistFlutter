@@ -1,11 +1,11 @@
 #!/bin/bash
 
-GIT_REPO="https://github.com/alist-org/alist.git"
+GIT_REPO="https://github.com/OpenListTeam/OpenList.git"
 
 function to_int() {
     echo $(echo "$1" | grep -oE '[0-9]+' | tr -d '\n')
 }
-
+# 这里是获取所有版本, 包括pre-release
 function get_latest_version() {
     echo $(git -c 'versionsort.suffix=-' ls-remote --exit-code --refs --sort='version:refname' --tags $GIT_REPO | tail --lines=1 | cut --delimiter='/' --fields=3)
 }
