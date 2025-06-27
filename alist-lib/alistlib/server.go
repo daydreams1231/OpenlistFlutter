@@ -9,7 +9,7 @@ import (
 	"os"
 	"strconv"
 	"time"
-
+	/*
 	"github.com/OpenListTeam/OpenList/internal"
 	"github.com/OpenListTeam/OpenList/cmd"
 	"github.com/OpenListTeam/OpenList/cmd/flags"
@@ -17,6 +17,14 @@ import (
 	"github.com/OpenListTeam/OpenList/internal/conf"
 	"github.com/OpenListTeam/OpenList/pkg/utils"
 	"github.com/OpenListTeam/OpenList/server"
+ 	*/
+	"github.com/alist-org/alist/v3/alistlib/internal"
+	"github.com/alist-org/alist/v3/cmd"
+	"github.com/alist-org/alist/v3/cmd/flags"
+	"github.com/alist-org/alist/v3/internal/bootstrap"
+	"github.com/alist-org/alist/v3/internal/conf"
+	"github.com/alist-org/alist/v3/pkg/utils"
+	"github.com/alist-org/alist/v3/server"
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 )
